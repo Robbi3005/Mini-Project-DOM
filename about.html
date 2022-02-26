@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+
+    <style>
+        .body {
+
+            position: relative;
+            /* height: 100vh; */
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            z-index: 0;
+        }
+
+        .body::before {
+            content: "";
+            background-image: url("./Background/pexels-3.jpg");
+            background-size: contain;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            opacity: 0.47;
+
+        }
+
+        .container-fluid {
+            /* background: #cecbcb; */
+            color: #333333;
+
+            font-family: 'Changa', sans-serif;
+            font-weight: bolder;
+            text-align: center;
+
+            margin-top: 10px;
+
+            z-index: 100;
+        }
+
+        .header {
+            background-color: #1ea3b2;
+            color: white;
+
+            padding: 10px;
+
+            /* border-radius: 18px; */
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* height: 60px; */
+
+            box-shadow: 9px 9px 9px 2px rgb(0 0 0 / 80%);
+        }
+
+        .btn-light {
+            color: rgb(14, 76, 117);
+            background-color: #f8f9fa;
+            border-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 9px 9px 9px 2px rgb(0 0 0 / 80%);
+
+            font-size: 15px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 342px;
+            left: 150px;
+
+            font-size: 39px;
+        }
+
+        .top-left2 {
+            position: absolute;
+            top: 383px;
+            left: 150px;
+
+            font-size: 39px;
+        }
+
+        .top-left3 {
+            position: absolute;
+            top: 527px;
+            left: 427px;
+
+            font-size: 11px;
+            background-color: #3c8aff;
+
+            border-radius: 6px;
+        }
+    </style>
+
+</head>
+
+<body class="body">
+
+    <div class="container-fluid">
+
+        <!-- HEADER 1 -->
+
+        <div class="header" style="border-radius: 5px;">
+
+            <div style="padding-top: 14px">
+                <p style="font-size: 28px;"> Masih takut bayar konseling mahal, ini ada diskon !!! </p>
+            </div>
+
+            <div style="padding-top: 14px; color:rgb(54, 52, 52)">
+                <p> Bebaskan hidup dari beban pikiran </p>
+            </div>
+
+            <button type="button" class="btn-light">
+                <a href="./login.html" style="color: grey; text-decoration: none;">
+                    Gas lah daftarr !!! Senin Harga Naik
+                </a>
+            </button>
+
+        </div>
+        <br>
+
+        <!-- HEADER 2 -->
+        <!-- NAVBAR -->
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="_blank">
+                        <img style="width: 68px;" src="./Img/Logo/cat-3.png">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Lokasi.html">Lokasi Psikolog</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <a href="./login.html">
+                <button type="button" class="btn btn-warning" style="margin-left: 149px;
+            width: 77px;">
+                    Login
+                </button>
+            </a>
+        </div>
+
+        <!-- BREADCRUMS -->
+
+        <div style="display: flex; justify-content: center;">
+            <nav aria-label="breadcrumb" style="margin-top: 32px; margin-left: 23px;">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a style="color: grey;" href="./home.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- CONTENT -->
+
+        <div class="container-fluid row" style="margin: 0; padding: 0; margin-bottom: 20px;">
+
+            <div class="col-6">
+
+                <div class="top-left">Listen To Me:</div>
+                <div class="top-left2">I am Meowmorable</div>
+                <button type="button" class="btn btn-primary top-left3" data-bs-toggle="modal"
+                    data-bs-target="#stressReleased">
+                    Click Me,
+                    <br>
+                    Stess Released
+                </button>
+
+                <img class="img-thumbnail rounded-" src="./Img/Logo/cat-2.jpg"
+                    style="width: 100%; border-radius: 20px; box-shadow: 9px 9px 9px 2px rgb(0 0 0 / 80%);" />
+
+            </div>
+
+            <!-- Modal Button -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="stressReleased" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+
+                            <iframe id="video1" width="100%" height="315"
+                                src="https://www.youtube.com/embed/n3iNDf6cqzI" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button id="close1" type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                data-bs-toggle="modal" data-bs-target="#cantClose">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="cantClose" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            Kalo stress mau ilang, tonton ampe abis napa
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                data-bs-toggle="modal" data-bs-target="#stressReleased2">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="stressReleased2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+
+                            <iframe id="video2" width="100%" height="315"
+                                src="https://www.youtube.com/embed/n3iNDf6cqzI" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button id="close2" type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SCRIPT 1 -->
+
+            <script>
+
+                const youtube = document.querySelector("#video1");
+                const close = document.querySelector("#close1");
+                const url = youtube.getAttribute("src");
+
+                const hideModal = () => {
+                    youtube.setAttribute("src", "");
+                    youtube.setAttribute("src", url);
+                }
+
+                close.addEventListener("click", () => {
+                    hideModal()
+                })
+
+            </script>
+
+            <!-- SCRIPT 2 -->
+
+            <script>
+
+                const youtube2 = document.querySelector("#video2");
+                const close2 = document.querySelector("#close2");
+                const url2 = youtube2.getAttribute("src");
+
+                const hideModal2 = () => {
+                    youtube2.setAttribute("src", "");
+                    youtube2.setAttribute("src", url2);
+                }
+
+                close2.addEventListener("click", () => {
+                    hideModal2()
+                })
+
+            </script>
+
+
+            <div class="col-6" style="text-align: left; padding-top: 41px; 
+            padding-left: 79px; margin-top: -33px;">
+
+                <h3 style="text-shadow: #fddc03 1px 0 3px;">Here We Are</h3>
+
+                <p>
+                    Sebagai platform yang bergerak di bidang kesehatan mental,
+                    kami menawarkan berbagai layanan seputar kesehatan mental dan
+                    pengembangan diri. Kami selalu berusaha meningkatkan layanan
+                    dan menyediakan lebih banyak variasi di dalamnya,
+                    yang dapat diakses dari mana saja dan kapan saja.
+                    Sehingga mampu memberikan kemudahan dan kenyamanan bagi masyarakat luas
+                    untuk mendapatkan layanan seputar kesehatan mental dan pengembangan diri.
+                </p>
+                <br>
+
+                <h4 style="text-shadow: #fddc03 1px 0 3px;">
+                    Berbagai masalah kesehatan mental dan pengembangan diri yang dapat kamu
+                    temukan solusinya di Sini:
+                </h4>
+
+                <ul>
+                    <li>Cara mengatasi masalah kesehatan mental</li>
+                    <li>Cara mengatasi overthinking dan kecemasan</li>
+                    <li>Cara mengatasi gangguan depresi dan trauma</li>
+                    <li>Cara mengatasi quarter life crisis</li>
+                    <li>Cara mengenal tipe kepribadian diri</li>
+                    <li>Cara mengembangkan kemampuan dan potensi diri</li>
+                    <li>Cara meningkatkan percaya diri</li>
+                    <li>Cara mencintai diri sendiri</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
