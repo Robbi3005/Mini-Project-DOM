@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - Dom</title>
+</head>
+
+<body>
+
+    <!-- DOM  -->
+    <script>
+
+        // CEK DOCUMENT
+
+        console.log(document.getElementById);
+        console.log(document.getElementsByTagName("button"));
+        console.log(document);
+
+        // Tes 1
+
+        let button = document.createElement("button");
+        let setButtonAtt = button.setAttribute("id", "click");
+        
+        // document.getElementById("click").innerHTML = "di klik dong" // ini ga bisa
+        button.innerHTML = "Click Dah";
+        
+        document.body.appendChild(button);
+
+        document.getElementById("click").onclick = () => {
+            alert("ah enak")
+        }
+
+        // Tes 2
+
+        // let button = document.createElement("button");
+        // let buttonAtt = button.attributes = "id";
+        // let setButtonAtt = button.setAttribute("id", "click");
+        
+        // document.body.getElementById("click").innerHTML = "di klik dong"
+
+        // document.body.appendChild(button);
+        // button.innerHTML = "Click Dah";
+
+        // document.getElementById("click").onclick = () => {
+        //     alert("ah enak")
+        // }
+
+    </script>
+
+</body>
+
+</html>

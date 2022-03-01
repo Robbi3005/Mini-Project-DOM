@@ -222,7 +222,36 @@
             </form>
         </div>
 
+        <!-- DOM  -->
+
+        <script>
+
+            let button2 = document.createElement("button");
+            button2.innerHTML = "Click Dong";
+            document.body.appendChild(button2);
+            button2.style.color = "black";
+            button2.style.backgroundColor = "#ffc107";
+            button2.style.fontFamily = "changa";
+            button2.style.borderRadius = "7px"; 
+            button2.style.position = "relative"; 
+            button2.style.right = "430px"; 
+            button2.style.bottom = "140px"; 
+            button2.style.zIndex = "500"; 
+            // button2.style.margin = "auto";
+
+            document.getElementsByTagName("button")[4].onclick = () => {
+                alert("ah enak")
+            }
+
+            console.log(document.getElementsByTagName("button"));
+
+        </script>
+
+        <!-- console.log(document.getElementsByTagName("button")); -->
+
     </div>
+
+
 
     <!-- <script>
     function openWindow() {
